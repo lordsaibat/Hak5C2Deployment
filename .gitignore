@@ -1,0 +1,16 @@
+.terraform/*
+AWS/terraform.tfstate*
+AWS/.terraform/*
+AWS/ssh_keys/hak5*
+Azure/terraform.tfstate*
+Azure/.terraform/*
+Azure/ssh_keys/azure*
+Azure/az-creds.sh
+DigitalOcean/terraform.tfstate*
+DigitalOcean/.terraform/*
+DigitalOcean/ssh_keys/do-*
+DigitalOcean/do-creds.code
+Google/terraform.tfstate*
+Google/.terraform/*
+Google/ssh_keys/gkeys*
+Google/gcloud.json

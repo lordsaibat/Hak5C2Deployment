@@ -1,0 +1,14 @@
+#docker-compose run --service-ports -e 'hostname=192.168.1.1' -e 'listenport=443' hak5-c2 
+
+version: '2'
+services:
+    hak5-c2:
+     build: 
+      context: ./
+      dockerfile: Dockerfile
+     container_name: hak5-c2
+     ports:
+      - "80:80"
+      - "2022:2022"
+     stdin_open: true
+     tty: true
